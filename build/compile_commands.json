@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/zbit/workspace/ICPC/build",
+  "command": "/usr/bin/g++   -g -std=gnu++11 -o CMakeFiles/main.dir/main.cpp.o -c /home/zbit/workspace/ICPC/main.cpp",
+  "file": "/home/zbit/workspace/ICPC/main.cpp"
+}
+]
