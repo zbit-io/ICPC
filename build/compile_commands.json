@@ -1,7 +1,8 @@
 [
 {
-  "directory": "/home/zbit/workspace/ICPC/build",
-  "command": "/usr/bin/g++   -g -std=gnu++11 -o CMakeFiles/main.dir/main.cpp.o -c /home/zbit/workspace/ICPC/main.cpp",
-  "file": "/home/zbit/workspace/ICPC/main.cpp"
+  "directory": "/Users/zbit/workspace/ICPC/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/main.dir/Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp.o -c /Users/zbit/workspace/ICPC/Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp",
+  "file": "/Users/zbit/workspace/ICPC/Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp",
+  "output": "CMakeFiles/main.dir/Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp.o"
 }
 ]
