@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/zbit/workspace/ICPC/Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp" "CMakeFiles/main.dir/Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp.o" "gcc" "CMakeFiles/main.dir/Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp.o.d"
+  "/Users/zbit/workspace/ICPC/Leetcode/Problem_427_ConstructQuadTree.cpp" "CMakeFiles/main.dir/Leetcode/Problem_427_ConstructQuadTree.cpp.o" "gcc" "CMakeFiles/main.dir/Leetcode/Problem_427_ConstructQuadTree.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

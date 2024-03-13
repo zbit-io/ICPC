@@ -1,8 +1,8 @@
 [
 {
   "directory": "/Users/zbit/workspace/ICPC/build",
-  "command": "/usr/bin/clang++   -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/main.dir/Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp.o -c /Users/zbit/workspace/ICPC/Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp",
-  "file": "/Users/zbit/workspace/ICPC/Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp",
-  "output": "CMakeFiles/main.dir/Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp.o"
+  "command": "/usr/bin/clang++   -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/main.dir/Leetcode/Problem_427_ConstructQuadTree.cpp.o -c /Users/zbit/workspace/ICPC/Leetcode/Problem_427_ConstructQuadTree.cpp",
+  "file": "/Users/zbit/workspace/ICPC/Leetcode/Problem_427_ConstructQuadTree.cpp",
+  "output": "CMakeFiles/main.dir/Leetcode/Problem_427_ConstructQuadTree.cpp.o"
 }
 ]

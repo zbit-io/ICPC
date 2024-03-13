@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.o: Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp.o
-.PHONY : Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.o
+Leetcode/Problem_427_ConstructQuadTree.o: Leetcode/Problem_427_ConstructQuadTree.cpp.o
+.PHONY : Leetcode/Problem_427_ConstructQuadTree.o
 
 # target to build an object file
-Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp.o
-.PHONY : Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp.o
+Leetcode/Problem_427_ConstructQuadTree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Leetcode/Problem_427_ConstructQuadTree.cpp.o
+.PHONY : Leetcode/Problem_427_ConstructQuadTree.cpp.o
 
-Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.i: Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp.i
-.PHONY : Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.i
+Leetcode/Problem_427_ConstructQuadTree.i: Leetcode/Problem_427_ConstructQuadTree.cpp.i
+.PHONY : Leetcode/Problem_427_ConstructQuadTree.i
 
 # target to preprocess a source file
-Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp.i
-.PHONY : Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp.i
+Leetcode/Problem_427_ConstructQuadTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Leetcode/Problem_427_ConstructQuadTree.cpp.i
+.PHONY : Leetcode/Problem_427_ConstructQuadTree.cpp.i
 
-Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.s: Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp.s
-.PHONY : Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.s
+Leetcode/Problem_427_ConstructQuadTree.s: Leetcode/Problem_427_ConstructQuadTree.cpp.s
+.PHONY : Leetcode/Problem_427_ConstructQuadTree.s
 
 # target to generate assembly for a file
-Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp.s
-.PHONY : Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp.s
+Leetcode/Problem_427_ConstructQuadTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Leetcode/Problem_427_ConstructQuadTree.cpp.s
+.PHONY : Leetcode/Problem_427_ConstructQuadTree.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.o"
-	@echo "... Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.i"
-	@echo "... Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.s"
+	@echo "... Leetcode/Problem_427_ConstructQuadTree.o"
+	@echo "... Leetcode/Problem_427_ConstructQuadTree.i"
+	@echo "... Leetcode/Problem_427_ConstructQuadTree.s"
 .PHONY : help
 
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp.o"
-  "CMakeFiles/main.dir/Leetcode/Problem_108_ConvertSortedArrayToBinarySearchTree.cpp.o.d"
+  "CMakeFiles/main.dir/Leetcode/Problem_427_ConstructQuadTree.cpp.o"
+  "CMakeFiles/main.dir/Leetcode/Problem_427_ConstructQuadTree.cpp.o.d"
   "main"
   "main.pdb"
 )
