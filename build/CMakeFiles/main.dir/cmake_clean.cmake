@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/Leetcode/Problem_427_ConstructQuadTree.cpp.o"
-  "CMakeFiles/main.dir/Leetcode/Problem_427_ConstructQuadTree.cpp.o.d"
+  "CMakeFiles/main.dir/Leetcode/DP/Problem_P790_DominoAndTrominoTiling.cpp.o"
+  "CMakeFiles/main.dir/Leetcode/DP/Problem_P790_DominoAndTrominoTiling.cpp.o.d"
   "main"
   "main.pdb"
 )

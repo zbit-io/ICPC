@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-Leetcode/Problem_427_ConstructQuadTree.o: Leetcode/Problem_427_ConstructQuadTree.cpp.o
-.PHONY : Leetcode/Problem_427_ConstructQuadTree.o
+Leetcode/DP/Problem_P790_DominoAndTrominoTiling.o: Leetcode/DP/Problem_P790_DominoAndTrominoTiling.cpp.o
+.PHONY : Leetcode/DP/Problem_P790_DominoAndTrominoTiling.o
 
 # target to build an object file
-Leetcode/Problem_427_ConstructQuadTree.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Leetcode/Problem_427_ConstructQuadTree.cpp.o
-.PHONY : Leetcode/Problem_427_ConstructQuadTree.cpp.o
+Leetcode/DP/Problem_P790_DominoAndTrominoTiling.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Leetcode/DP/Problem_P790_DominoAndTrominoTiling.cpp.o
+.PHONY : Leetcode/DP/Problem_P790_DominoAndTrominoTiling.cpp.o
 
-Leetcode/Problem_427_ConstructQuadTree.i: Leetcode/Problem_427_ConstructQuadTree.cpp.i
-.PHONY : Leetcode/Problem_427_ConstructQuadTree.i
+Leetcode/DP/Problem_P790_DominoAndTrominoTiling.i: Leetcode/DP/Problem_P790_DominoAndTrominoTiling.cpp.i
+.PHONY : Leetcode/DP/Problem_P790_DominoAndTrominoTiling.i
 
 # target to preprocess a source file
-Leetcode/Problem_427_ConstructQuadTree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Leetcode/Problem_427_ConstructQuadTree.cpp.i
-.PHONY : Leetcode/Problem_427_ConstructQuadTree.cpp.i
+Leetcode/DP/Problem_P790_DominoAndTrominoTiling.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Leetcode/DP/Problem_P790_DominoAndTrominoTiling.cpp.i
+.PHONY : Leetcode/DP/Problem_P790_DominoAndTrominoTiling.cpp.i
 
-Leetcode/Problem_427_ConstructQuadTree.s: Leetcode/Problem_427_ConstructQuadTree.cpp.s
-.PHONY : Leetcode/Problem_427_ConstructQuadTree.s
+Leetcode/DP/Problem_P790_DominoAndTrominoTiling.s: Leetcode/DP/Problem_P790_DominoAndTrominoTiling.cpp.s
+.PHONY : Leetcode/DP/Problem_P790_DominoAndTrominoTiling.s
 
 # target to generate assembly for a file
-Leetcode/Problem_427_ConstructQuadTree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Leetcode/Problem_427_ConstructQuadTree.cpp.s
-.PHONY : Leetcode/Problem_427_ConstructQuadTree.cpp.s
+Leetcode/DP/Problem_P790_DominoAndTrominoTiling.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Leetcode/DP/Problem_P790_DominoAndTrominoTiling.cpp.s
+.PHONY : Leetcode/DP/Problem_P790_DominoAndTrominoTiling.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... Leetcode/Problem_427_ConstructQuadTree.o"
-	@echo "... Leetcode/Problem_427_ConstructQuadTree.i"
-	@echo "... Leetcode/Problem_427_ConstructQuadTree.s"
+	@echo "... Leetcode/DP/Problem_P790_DominoAndTrominoTiling.o"
+	@echo "... Leetcode/DP/Problem_P790_DominoAndTrominoTiling.i"
+	@echo "... Leetcode/DP/Problem_P790_DominoAndTrominoTiling.s"
 .PHONY : help
 
 
