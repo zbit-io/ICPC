@@ -3,7 +3,7 @@ project(DataSructure VERSION 1.0)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_STANDARD 11)
 set(SOURCES
-Leetcode/DP/Problem_P790_DominoAndTrominoTiling.cpp
+Leetcode/Problem_150_EvaluateReversePolishNotation.cpp
 )
 
 add_executable(main ${SOURCES})

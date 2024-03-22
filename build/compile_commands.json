@@ -1,8 +1,8 @@
 [
 {
   "directory": "/Users/zbit/workspace/ICPC/build",
-  "command": "/usr/bin/clang++   -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/main.dir/Leetcode/DP/Problem_P790_DominoAndTrominoTiling.cpp.o -c /Users/zbit/workspace/ICPC/Leetcode/DP/Problem_P790_DominoAndTrominoTiling.cpp",
-  "file": "/Users/zbit/workspace/ICPC/Leetcode/DP/Problem_P790_DominoAndTrominoTiling.cpp",
-  "output": "CMakeFiles/main.dir/Leetcode/DP/Problem_P790_DominoAndTrominoTiling.cpp.o"
+  "command": "/usr/bin/clang++   -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/main.dir/Leetcode/Problem_150_EvaluateReversePolishNotation.cpp.o -c /Users/zbit/workspace/ICPC/Leetcode/Problem_150_EvaluateReversePolishNotation.cpp",
+  "file": "/Users/zbit/workspace/ICPC/Leetcode/Problem_150_EvaluateReversePolishNotation.cpp",
+  "output": "CMakeFiles/main.dir/Leetcode/Problem_150_EvaluateReversePolishNotation.cpp.o"
 }
 ]

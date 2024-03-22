@@ -1,31 +1,32 @@
 #include<iostream>
+#include <unordered_map>
 #include<vector>
 #include <map>
 using namespace std;
-struct TireNode{
+struct TrieNode{
     bool isChild;
-    map<char,TireNode*> children;
-    TireNode():isChild(false){
+    unordered_map<char,TrieNode*> children;
+    TrieNode():isChild(false){
     }
     
     
 };
-class Tire{
-    TireNode* root;
+class Trie{
+    TrieNode* root;
     public:
-    Tire(){
-        root=new TireNode;
+    Trie(){
+        root=new TrieNode;
     }
     void insert(const string& s){
-        TireNode* temp=root;
+        TrieNode* temp=root;
         for(char c:s){
-            if(temp->children[c]==nullptr)temp->children[c]=new TireNode;
+            if(temp->children[c]==nullptr)temp->children[c]=new TrieNode;
             temp=temp->children[c];
         }
         temp->isChild=true;
     }
     bool find(const string&s){
-        TireNode* temp=root;
+        TrieNode* temp=root;
         for(int i=0;i<s.size();i++){
             if(temp->children[s[i]]==nullptr){
                 return false;
@@ -50,12 +51,12 @@ public:
     bool wordBreak(string s, vector<string>& wordDict) {
         vector<string> substr;
         calculateSubStr(substr, s);
-        Tire tire;
+        Trie Trie;
         for(auto str:substr){
-            tire.insert(str);
+            Trie.insert(str);
         }
         for(auto str:wordDict){
-            if(!tire.find(str)){
+            if(!Trie.find(str)){
                 return false;
             }
         }
@@ -65,14 +66,34 @@ public:
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
-        Tire tire;
+        Trie Trie;
         for(auto word:wordDict){
-            tire.insert(word);
+            Trie.insert(word);
         }
+        const int m=wordDict.size();
+        const int n=s.size();
+        vector<int>dp(n,false);
+        dp[0]=true;
+        for(int i=1;i<n;i++){
+            bool isFind=false;
+            for(int k=0;k<i;k++){
+                if(dp[k]==0)continue;//如果dp[i]为false则不必要检查
+                string t1;
+                for(int j=k;j<i;j++){
+                    t1+=dp[j];
+                }
+                isFind=Trie.find(t1);
+                if(isFind)break;//找到了一个就可以结束了
+            }
+            dp[i]=isFind;
+        }
+        return dp[n-1];
+
         
     }
 };
 int main() {
-   Solution(). 
+    
+    Solution(). 
     return 0;
 }

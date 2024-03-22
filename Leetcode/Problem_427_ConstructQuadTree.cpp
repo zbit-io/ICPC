@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
+int aaabb=331;
 class Node {
 public:
     bool val;
@@ -74,18 +75,18 @@ public:
         return constructe(grid, 0,0, grid.size()-1, grid.size()-1);
     }
 };
-int main() {
+// int main() {
 
-   vector<vector<int> >grid{{1,1,0,0,0,0,1,1}
-,{1,1,0,0,0,0,1,1}
-,{0,0,0,0,0,0,1,1},
-{0,0,0,0,0,0,1,1},
-{0,0,0,0,0,0,1,1},
-{0,0,0,0,0,0,1,1},
-{1,1,0,0,0,0,1,1},
-{1,1,0,0,0,0,1,1}};
-    Solution().construct(grid);
+//    vector<vector<int> >grid{{1,1,0,0,0,0,1,1}
+// ,{1,1,0,0,0,0,1,1}
+// ,{0,0,0,0,0,0,1,1},
+// {0,0,0,0,0,0,1,1},
+// {0,0,0,0,0,0,1,1},
+// {0,0,0,0,0,0,1,1},
+// {1,1,0,0,0,0,1,1},
+// {1,1,0,0,0,0,1,1}};
+//     Solution().construct(grid);
 
 
-    return 0;
-}
+//     return 0;
+// }
